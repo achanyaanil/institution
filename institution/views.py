@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    return render(request,'institution/login.html')
+    return render(request,'mysystem/login.html')
 
 def login(request):
-    return render(request,'institution/registration.html')       
+    return render(request,'mysystem/registration.html')       
