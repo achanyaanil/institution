@@ -4,5 +4,5 @@ from django.http import HttpResponse
 def home(request):
     return render(request,'mysystem/login.html')
 
-def login(request):
+def registration(request):
     return render(request,'mysystem/registration.html')       
