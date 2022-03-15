@@ -1,0 +1,1 @@
+web: gunicorn institution.wsgi --log-file -
